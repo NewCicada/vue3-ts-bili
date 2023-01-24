@@ -1,6 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@types/mockjs': ^1.0.7
   '@typescript-eslint/eslint-plugin': ^5.4.0
   '@typescript-eslint/parser': ^5.4.0
   '@vue/cli-plugin-babel': ~5.0.0
@@ -31,6 +32,7 @@ dependencies:
   vue-router: registry.npmmirror.com/vue-router/4.1.6_vue@3.2.45
 
 devDependencies:
+  '@types/mockjs': registry.npmmirror.com/@types/mockjs/1.0.7
   '@typescript-eslint/eslint-plugin': registry.npmmirror.com/@typescript-eslint/eslint-plugin/5.49.0_m2yoknroioy75h3ie7txg5mrge
   '@typescript-eslint/parser': registry.npmmirror.com/@typescript-eslint/parser/5.49.0_sgaiclxgc5mltnpgmg7py4v6ca
   '@vue/cli-plugin-babel': registry.npmmirror.com/@vue/cli-plugin-babel/5.0.8_ydkby3wwj3ied62d3e43gxwxkm
@@ -1912,6 +1914,12 @@ packages:
     resolution: {integrity: sha512-jhuKLIRrhvCPLqwPcx6INqmKeiA5EWrsCOPhrlFSrbrmU4ZMPjj5Ul/oLCMDO98XRUIwVm78xICz4EPCektzeQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@types/minimist/-/minimist-1.2.2.tgz}
     name: '@types/minimist'
     version: 1.2.2
+    dev: true
+
+  registry.npmmirror.com/@types/mockjs/1.0.7:
+    resolution: {integrity: sha512-OCxXz6hEaJOVpRwuJMiVY5a6LtJcih+br9gwB/Q8ooOBikvk5FpBQ31OlNimXo3EqKha1Z7PFBni+q9m+8NCWg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@types/mockjs/-/mockjs-1.0.7.tgz}
+    name: '@types/mockjs'
+    version: 1.0.7
     dev: true
 
   registry.npmmirror.com/@types/node/18.11.18:
